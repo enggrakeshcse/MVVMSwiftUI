@@ -1,0 +1,6 @@
+framework module Pods_CricAppDemo {
+  umbrella header "Pods-CricAppDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

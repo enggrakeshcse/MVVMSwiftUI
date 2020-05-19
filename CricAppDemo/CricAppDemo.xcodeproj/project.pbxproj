@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466A93A524652B8E00836662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93A424652B8E00836662 /* AppDelegate.swift */; };
+		466A93A724652B8E00836662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93A624652B8E00836662 /* SceneDelegate.swift */; };
+		466A93A924652B8E00836662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93A824652B8E00836662 /* ContentView.swift */; };
+		466A93AB24652B8F00836662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466A93AA24652B8F00836662 /* Assets.xcassets */; };
+		466A93AE24652B8F00836662 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466A93AD24652B8F00836662 /* Preview Assets.xcassets */; };
+		466A93B124652B8F00836662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466A93AF24652B8F00836662 /* LaunchScreen.storyboard */; };
+		466A93BC24652B8F00836662 /* CricAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93BB24652B8F00836662 /* CricAppDemoTests.swift */; };
+		466A93C724652B9000836662 /* CricAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93C624652B9000836662 /* CricAppDemoUITests.swift */; };
+		466A93D524652BEC00836662 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93D424652BEC00836662 /* Constant.swift */; };
+		466A93E52465317800836662 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93E12465317800836662 /* Players.swift */; };
+		466A93E62465317800836662 /* RootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93E22465317800836662 /* RootClass.swift */; };
+		466A93E72465317800836662 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93E32465317800836662 /* Provider.swift */; };
+		466A93E82465317800836662 /* Squad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93E42465317800836662 /* Squad.swift */; };
+		466A93EB246531F800836662 /* PlayerListServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93EA246531F800836662 /* PlayerListServices.swift */; };
+		466A93EE2465322100836662 /* PlayerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93ED2465322100836662 /* PlayerListViewModel.swift */; };
+		466A93F024657E4300836662 /* ServiceHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A93EF24657E4300836662 /* ServiceHandle.swift */; };
+		46775B76246E5488002CFA57 /* URLImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46775B75246E5488002CFA57 /* URLImages.swift */; };
+		46775B79246E96C2002CFA57 /* GlobalEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46775B78246E96C2002CFA57 /* GlobalEnum.swift */; };
+		46C9109F246D7DB800437F16 /* PlayerDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C9109E246D7DB800437F16 /* PlayerDetailsViewModel.swift */; };
+		46C910A2246D888800437F16 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C910A1246D888800437F16 /* ImageLoader.swift */; };
+		46CBD68C246D2BCD0017607C /* PlayerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD68B246D2BCD0017607C /* PlayerDetails.swift */; };
+		46CBD6AE246D3A5B0017607C /* ODIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6A4246D3A5B0017607C /* ODIs.swift */; };
+		46CBD6AF246D3A5B0017607C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6A5246D3A5B0017607C /* Tests.swift */; };
+		46CBD6B0246D3A5B0017607C /* PlayerDetailsRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6A6246D3A5B0017607C /* PlayerDetailsRoot.swift */; };
+		46CBD6B1246D3A5B0017607C /* Batting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6A7246D3A5B0017607C /* Batting.swift */; };
+		46CBD6B2246D3A5B0017607C /* T20Is.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6A8246D3A5B0017607C /* T20Is.swift */; };
+		46CBD6B3246D3A5B0017607C /* Bowling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6A9246D3A5B0017607C /* Bowling.swift */; };
+		46CBD6B4246D3A5B0017607C /* FirstClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6AA246D3A5B0017607C /* FirstClass.swift */; };
+		46CBD6B6246D3A5B0017607C /* ListA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6AC246D3A5B0017607C /* ListA.swift */; };
+		46CBD6B7246D3A5B0017607C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6AD246D3A5B0017607C /* Data.swift */; };
+		46CBD6B9246D40810017607C /* PlayerDetailsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CBD6B8246D40810017607C /* PlayerDetailsServices.swift */; };
+		689EAB2FA14A78AB4B6CF144 /* Pods_CricAppDemo_CricAppDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583C2CE3339D8E579DA15A70 /* Pods_CricAppDemo_CricAppDemoUITests.framework */; };
+		69ED818681A410C2CF576276 /* Pods_CricAppDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E935FF59C21D2E3EACDEE3F9 /* Pods_CricAppDemoTests.framework */; };
+		84F7A72F92FCBF3F38054AC9 /* Pods_CricAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7E7525161EF682F88E62D9 /* Pods_CricAppDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466A93B824652B8F00836662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466A939924652B8E00836662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466A93A024652B8E00836662;
+			remoteInfo = CricAppDemo;
+		};
+		466A93C324652B9000836662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466A939924652B8E00836662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466A93A024652B8E00836662;
+			remoteInfo = CricAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466A93A124652B8E00836662 /* CricAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466A93A424652B8E00836662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466A93A624652B8E00836662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		466A93A824652B8E00836662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		466A93AA24652B8F00836662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466A93AD24652B8F00836662 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		466A93B024652B8F00836662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		466A93B224652B8F00836662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466A93B724652B8F00836662 /* CricAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466A93BB24652B8F00836662 /* CricAppDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricAppDemoTests.swift; sourceTree = "<group>"; };
+		466A93BD24652B8F00836662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466A93C224652B9000836662 /* CricAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466A93C624652B9000836662 /* CricAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricAppDemoUITests.swift; sourceTree = "<group>"; };
+		466A93C824652B9000836662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466A93D424652BEC00836662 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		466A93E12465317800836662 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		466A93E22465317800836662 /* RootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootClass.swift; sourceTree = "<group>"; };
+		466A93E32465317800836662 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		466A93E42465317800836662 /* Squad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Squad.swift; sourceTree = "<group>"; };
+		466A93EA246531F800836662 /* PlayerListServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListServices.swift; sourceTree = "<group>"; };
+		466A93ED2465322100836662 /* PlayerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewModel.swift; sourceTree = "<group>"; };
+		466A93EF24657E4300836662 /* ServiceHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHandle.swift; sourceTree = "<group>"; };
+		46775B75246E5488002CFA57 /* URLImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImages.swift; sourceTree = "<group>"; };
+		46775B78246E96C2002CFA57 /* GlobalEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEnum.swift; sourceTree = "<group>"; };
+		46C9109E246D7DB800437F16 /* PlayerDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewModel.swift; sourceTree = "<group>"; };
+		46C910A1246D888800437F16 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		46CBD68B246D2BCD0017607C /* PlayerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetails.swift; sourceTree = "<group>"; };
+		46CBD6A4246D3A5B0017607C /* ODIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODIs.swift; sourceTree = "<group>"; };
+		46CBD6A5246D3A5B0017607C /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		46CBD6A6246D3A5B0017607C /* PlayerDetailsRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsRoot.swift; sourceTree = "<group>"; };
+		46CBD6A7246D3A5B0017607C /* Batting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Batting.swift; sourceTree = "<group>"; };
+		46CBD6A8246D3A5B0017607C /* T20Is.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T20Is.swift; sourceTree = "<group>"; };
+		46CBD6A9246D3A5B0017607C /* Bowling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bowling.swift; sourceTree = "<group>"; };
+		46CBD6AA246D3A5B0017607C /* FirstClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstClass.swift; sourceTree = "<group>"; };
+		46CBD6AC246D3A5B0017607C /* ListA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListA.swift; sourceTree = "<group>"; };
+		46CBD6AD246D3A5B0017607C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		46CBD6B8246D40810017607C /* PlayerDetailsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsServices.swift; sourceTree = "<group>"; };
+		4A1DB6ED2F3699F67440CAB3 /* Pods-CricAppDemo-CricAppDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricAppDemo-CricAppDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CricAppDemo-CricAppDemoUITests/Pods-CricAppDemo-CricAppDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7E7525161EF682F88E62D9 /* Pods_CricAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CricAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583C2CE3339D8E579DA15A70 /* Pods_CricAppDemo_CricAppDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CricAppDemo_CricAppDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4981FD472C6B536D4DC8F58 /* Pods-CricAppDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricAppDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CricAppDemoTests/Pods-CricAppDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABC665F7253D09C127D1E446 /* Pods-CricAppDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricAppDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CricAppDemoTests/Pods-CricAppDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5F21AD5C3FE3272A0E459C6 /* Pods-CricAppDemo-CricAppDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricAppDemo-CricAppDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CricAppDemo-CricAppDemoUITests/Pods-CricAppDemo-CricAppDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E935FF59C21D2E3EACDEE3F9 /* Pods_CricAppDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CricAppDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED80BD82CD551C934703E2E4 /* Pods-CricAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricAppDemo.release.xcconfig"; path = "Target Support Files/Pods-CricAppDemo/Pods-CricAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F7691180C726659B6469B41E /* Pods-CricAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CricAppDemo.debug.xcconfig"; path = "Target Support Files/Pods-CricAppDemo/Pods-CricAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466A939E24652B8E00836662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F7A72F92FCBF3F38054AC9 /* Pods_CricAppDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466A93B424652B8F00836662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ED818681A410C2CF576276 /* Pods_CricAppDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466A93BF24652B9000836662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689EAB2FA14A78AB4B6CF144 /* Pods_CricAppDemo_CricAppDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA80884C76D5234F85B2758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7691180C726659B6469B41E /* Pods-CricAppDemo.debug.xcconfig */,
+				ED80BD82CD551C934703E2E4 /* Pods-CricAppDemo.release.xcconfig */,
+				4A1DB6ED2F3699F67440CAB3 /* Pods-CricAppDemo-CricAppDemoUITests.debug.xcconfig */,
+				D5F21AD5C3FE3272A0E459C6 /* Pods-CricAppDemo-CricAppDemoUITests.release.xcconfig */,
+				ABC665F7253D09C127D1E446 /* Pods-CricAppDemoTests.debug.xcconfig */,
+				A4981FD472C6B536D4DC8F58 /* Pods-CricAppDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		466A939824652B8E00836662 = {
+			isa = PBXGroup;
+			children = (
+				466A93A324652B8E00836662 /* CricAppDemo */,
+				466A93BA24652B8F00836662 /* CricAppDemoTests */,
+				466A93C524652B9000836662 /* CricAppDemoUITests */,
+				466A93A224652B8E00836662 /* Products */,
+				1DA80884C76D5234F85B2758 /* Pods */,
+				698A0080EF4777C2B9F2023E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		466A93A224652B8E00836662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466A93A124652B8E00836662 /* CricAppDemo.app */,
+				466A93B724652B8F00836662 /* CricAppDemoTests.xctest */,
+				466A93C224652B9000836662 /* CricAppDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466A93A324652B8E00836662 /* CricAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				46775B77246E5554002CFA57 /* common */,
+				466A93EC2465320900836662 /* ViewModel */,
+				466A93E9246531E500836662 /* Services */,
+				466A93D624652E1500836662 /* Model */,
+				466A93A424652B8E00836662 /* AppDelegate.swift */,
+				466A93A624652B8E00836662 /* SceneDelegate.swift */,
+				46C910A0246D80A700437F16 /* ContentView */,
+				466A93AA24652B8F00836662 /* Assets.xcassets */,
+				466A93AF24652B8F00836662 /* LaunchScreen.storyboard */,
+				466A93B224652B8F00836662 /* Info.plist */,
+				466A93AC24652B8F00836662 /* Preview Content */,
+			);
+			path = CricAppDemo;
+			sourceTree = "<group>";
+		};
+		466A93AC24652B8F00836662 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				466A93AD24652B8F00836662 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		466A93BA24652B8F00836662 /* CricAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				466A93BB24652B8F00836662 /* CricAppDemoTests.swift */,
+				466A93BD24652B8F00836662 /* Info.plist */,
+			);
+			path = CricAppDemoTests;
+			sourceTree = "<group>";
+		};
+		466A93C524652B9000836662 /* CricAppDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466A93C624652B9000836662 /* CricAppDemoUITests.swift */,
+				466A93C824652B9000836662 /* Info.plist */,
+			);
+			path = CricAppDemoUITests;
+			sourceTree = "<group>";
+		};
+		466A93D624652E1500836662 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46CBD6A2246D38B80017607C /* PlayerDetails */,
+				46CBD6A3246D38DA0017607C /* PlayerList */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		466A93E9246531E500836662 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				466A93EA246531F800836662 /* PlayerListServices.swift */,
+				46CBD6B8246D40810017607C /* PlayerDetailsServices.swift */,
+				466A93EF24657E4300836662 /* ServiceHandle.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		466A93EC2465320900836662 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				466A93ED2465322100836662 /* PlayerListViewModel.swift */,
+				46C9109E246D7DB800437F16 /* PlayerDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		46775B77246E5554002CFA57 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				46C910A1246D888800437F16 /* ImageLoader.swift */,
+				466A93D424652BEC00836662 /* Constant.swift */,
+				46775B75246E5488002CFA57 /* URLImages.swift */,
+				46775B78246E96C2002CFA57 /* GlobalEnum.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		46C910A0246D80A700437F16 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				466A93A824652B8E00836662 /* ContentView.swift */,
+				46CBD68B246D2BCD0017607C /* PlayerDetails.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		46CBD6A2246D38B80017607C /* PlayerDetails */ = {
+			isa = PBXGroup;
+			children = (
+				46CBD6A7246D3A5B0017607C /* Batting.swift */,
+				46CBD6A9246D3A5B0017607C /* Bowling.swift */,
+				46CBD6AD246D3A5B0017607C /* Data.swift */,
+				46CBD6AA246D3A5B0017607C /* FirstClass.swift */,
+				46CBD6AC246D3A5B0017607C /* ListA.swift */,
+				46CBD6A4246D3A5B0017607C /* ODIs.swift */,
+				46CBD6A6246D3A5B0017607C /* PlayerDetailsRoot.swift */,
+				46CBD6A8246D3A5B0017607C /* T20Is.swift */,
+				46CBD6A5246D3A5B0017607C /* Tests.swift */,
+			);
+			path = PlayerDetails;
+			sourceTree = "<group>";
+		};
+		46CBD6A3246D38DA0017607C /* PlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				466A93E12465317800836662 /* Players.swift */,
+				466A93E32465317800836662 /* Provider.swift */,
+				466A93E22465317800836662 /* RootClass.swift */,
+				466A93E42465317800836662 /* Squad.swift */,
+			);
+			path = PlayerList;
+			sourceTree = "<group>";
+		};
+		698A0080EF4777C2B9F2023E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F7E7525161EF682F88E62D9 /* Pods_CricAppDemo.framework */,
+				583C2CE3339D8E579DA15A70 /* Pods_CricAppDemo_CricAppDemoUITests.framework */,
+				E935FF59C21D2E3EACDEE3F9 /* Pods_CricAppDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466A93A024652B8E00836662 /* CricAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466A93CB24652B9000836662 /* Build configuration list for PBXNativeTarget "CricAppDemo" */;
+			buildPhases = (
+				2F44D9B2C07AD8EAAEB30C12 /* [CP] Check Pods Manifest.lock */,
+				466A939D24652B8E00836662 /* Sources */,
+				466A939E24652B8E00836662 /* Frameworks */,
+				466A939F24652B8E00836662 /* Resources */,
+				0E2AA982061A84ACA2E903FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricAppDemo;
+			productName = CricAppDemo;
+			productReference = 466A93A124652B8E00836662 /* CricAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466A93B624652B8F00836662 /* CricAppDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466A93CE24652B9000836662 /* Build configuration list for PBXNativeTarget "CricAppDemoTests" */;
+			buildPhases = (
+				20E11E1384FB818699E5DC3C /* [CP] Check Pods Manifest.lock */,
+				466A93B324652B8F00836662 /* Sources */,
+				466A93B424652B8F00836662 /* Frameworks */,
+				466A93B524652B8F00836662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466A93B924652B8F00836662 /* PBXTargetDependency */,
+			);
+			name = CricAppDemoTests;
+			productName = CricAppDemoTests;
+			productReference = 466A93B724652B8F00836662 /* CricAppDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		466A93C124652B9000836662 /* CricAppDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466A93D124652B9000836662 /* Build configuration list for PBXNativeTarget "CricAppDemoUITests" */;
+			buildPhases = (
+				503DDFE87D5D40439A67B4F1 /* [CP] Check Pods Manifest.lock */,
+				466A93BE24652B9000836662 /* Sources */,
+				466A93BF24652B9000836662 /* Frameworks */,
+				466A93C024652B9000836662 /* Resources */,
+				08F85F0DA79B5FDF4838A741 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466A93C424652B9000836662 /* PBXTargetDependency */,
+			);
+			name = CricAppDemoUITests;
+			productName = CricAppDemoUITests;
+			productReference = 466A93C224652B9000836662 /* CricAppDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466A939924652B8E00836662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = macadmin;
+				TargetAttributes = {
+					466A93A024652B8E00836662 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					466A93B624652B8F00836662 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 466A93A024652B8E00836662;
+					};
+					466A93C124652B9000836662 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 466A93A024652B8E00836662;
+					};
+				};
+			};
+			buildConfigurationList = 466A939C24652B8E00836662 /* Build configuration list for PBXProject "CricAppDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466A939824652B8E00836662;
+			productRefGroup = 466A93A224652B8E00836662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466A93A024652B8E00836662 /* CricAppDemo */,
+				466A93B624652B8F00836662 /* CricAppDemoTests */,
+				466A93C124652B9000836662 /* CricAppDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466A939F24652B8E00836662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466A93B124652B8F00836662 /* LaunchScreen.storyboard in Resources */,
+				466A93AE24652B8F00836662 /* Preview Assets.xcassets in Resources */,
+				466A93AB24652B8F00836662 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466A93B524652B8F00836662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466A93C024652B9000836662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F85F0DA79B5FDF4838A741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CricAppDemo-CricAppDemoUITests/Pods-CricAppDemo-CricAppDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CricAppDemo-CricAppDemoUITests/Pods-CricAppDemo-CricAppDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CricAppDemo-CricAppDemoUITests/Pods-CricAppDemo-CricAppDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E2AA982061A84ACA2E903FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CricAppDemo/Pods-CricAppDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CricAppDemo/Pods-CricAppDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CricAppDemo/Pods-CricAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20E11E1384FB818699E5DC3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CricAppDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F44D9B2C07AD8EAAEB30C12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CricAppDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		503DDFE87D5D40439A67B4F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CricAppDemo-CricAppDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466A939D24652B8E00836662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CBD6B3246D3A5B0017607C /* Bowling.swift in Sources */,
+				46775B76246E5488002CFA57 /* URLImages.swift in Sources */,
+				466A93A524652B8E00836662 /* AppDelegate.swift in Sources */,
+				46CBD6B4246D3A5B0017607C /* FirstClass.swift in Sources */,
+				46CBD6B1246D3A5B0017607C /* Batting.swift in Sources */,
+				466A93EE2465322100836662 /* PlayerListViewModel.swift in Sources */,
+				466A93E52465317800836662 /* Players.swift in Sources */,
+				46CBD6B6246D3A5B0017607C /* ListA.swift in Sources */,
+				466A93E72465317800836662 /* Provider.swift in Sources */,
+				466A93A724652B8E00836662 /* SceneDelegate.swift in Sources */,
+				46CBD68C246D2BCD0017607C /* PlayerDetails.swift in Sources */,
+				466A93E82465317800836662 /* Squad.swift in Sources */,
+				46CBD6B9246D40810017607C /* PlayerDetailsServices.swift in Sources */,
+				46775B79246E96C2002CFA57 /* GlobalEnum.swift in Sources */,
+				46CBD6AF246D3A5B0017607C /* Tests.swift in Sources */,
+				46CBD6AE246D3A5B0017607C /* ODIs.swift in Sources */,
+				466A93A924652B8E00836662 /* ContentView.swift in Sources */,
+				46CBD6B7246D3A5B0017607C /* Data.swift in Sources */,
+				46CBD6B0246D3A5B0017607C /* PlayerDetailsRoot.swift in Sources */,
+				466A93EB246531F800836662 /* PlayerListServices.swift in Sources */,
+				46CBD6B2246D3A5B0017607C /* T20Is.swift in Sources */,
+				46C9109F246D7DB800437F16 /* PlayerDetailsViewModel.swift in Sources */,
+				46C910A2246D888800437F16 /* ImageLoader.swift in Sources */,
+				466A93E62465317800836662 /* RootClass.swift in Sources */,
+				466A93F024657E4300836662 /* ServiceHandle.swift in Sources */,
+				466A93D524652BEC00836662 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466A93B324652B8F00836662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466A93BC24652B8F00836662 /* CricAppDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466A93BE24652B9000836662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466A93C724652B9000836662 /* CricAppDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466A93B924652B8F00836662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466A93A024652B8E00836662 /* CricAppDemo */;
+			targetProxy = 466A93B824652B8F00836662 /* PBXContainerItemProxy */;
+		};
+		466A93C424652B9000836662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466A93A024652B8E00836662 /* CricAppDemo */;
+			targetProxy = 466A93C324652B9000836662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466A93AF24652B8F00836662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466A93B024652B8F00836662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466A93C924652B9000836662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		466A93CA24652B9000836662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466A93CC24652B9000836662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7691180C726659B6469B41E /* Pods-CricAppDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CricAppDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4F7SW76LL6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CricAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uiviewtest.CricAppDemo.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		466A93CD24652B9000836662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED80BD82CD551C934703E2E4 /* Pods-CricAppDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CricAppDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4F7SW76LL6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CricAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uiviewtest.CricAppDemo.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		466A93CF24652B9000836662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC665F7253D09C127D1E446 /* Pods-CricAppDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CricAppDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uiviewtest.CricAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricAppDemo.app/CricAppDemo";
+			};
+			name = Debug;
+		};
+		466A93D024652B9000836662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4981FD472C6B536D4DC8F58 /* Pods-CricAppDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CricAppDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uiviewtest.CricAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricAppDemo.app/CricAppDemo";
+			};
+			name = Release;
+		};
+		466A93D224652B9000836662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1DB6ED2F3699F67440CAB3 /* Pods-CricAppDemo-CricAppDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CricAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uiviewtest.CricAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CricAppDemo;
+			};
+			name = Debug;
+		};
+		466A93D324652B9000836662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F21AD5C3FE3272A0E459C6 /* Pods-CricAppDemo-CricAppDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CricAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uiviewtest.CricAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CricAppDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466A939C24652B8E00836662 /* Build configuration list for PBXProject "CricAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466A93C924652B9000836662 /* Debug */,
+				466A93CA24652B9000836662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466A93CB24652B9000836662 /* Build configuration list for PBXNativeTarget "CricAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466A93CC24652B9000836662 /* Debug */,
+				466A93CD24652B9000836662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466A93CE24652B9000836662 /* Build configuration list for PBXNativeTarget "CricAppDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466A93CF24652B9000836662 /* Debug */,
+				466A93D024652B9000836662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466A93D124652B9000836662 /* Build configuration list for PBXNativeTarget "CricAppDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466A93D224652B9000836662 /* Debug */,
+				466A93D324652B9000836662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466A939924652B8E00836662 /* Project object */;
+}
